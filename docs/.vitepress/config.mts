@@ -35,7 +35,6 @@ export default defineConfig({
   extends: teekConfig,
   title: "数智医嘱",
   description: "数智医嘱开发文档",
-  base: '/lrucio.github.io/',
   cleanUrls: true,
   lastUpdated: true,
   lang: "zh-CN",
