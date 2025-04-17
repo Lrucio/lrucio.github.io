@@ -5,9 +5,9 @@ tk:
   teekHome: false
 
 hero:
-  name: 数智医嘱
-  text: 数智医嘱开发文档
-  tagline: ✨关于数智医嘱硬件端、小程序端、管理后台的开发文档
+  name: Lrucio
+  text: Lrucio的开发小屋🏡
+  tagline: ✨关于技术、生活与热爱
   actions:
     - theme: brand
       text: 介绍

@@ -6,7 +6,7 @@ import { teekDocConfig, teekBlogConfig } from "../config/teekConfig";
 const ns = useNamespace("layout-provider");
 
 // 默认文档风
-const current = ref("B");
+const current = ref("D");
 
 const teekConfig = ref(current.value === "D" ? teekDocConfig : teekBlogConfig);
 provide(teekConfigSymbol, teekConfig);

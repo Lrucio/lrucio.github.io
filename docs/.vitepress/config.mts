@@ -5,8 +5,7 @@ const teekConfig = defineTeekConfig({
   author: { name: "数智医嘱", link: "https://github.com/Kele-Bingtang" },
   footerInfo: {
     theme: {
-      name: '数智医嘱',
-      link: "https://github.com/Kele-Bingtang"
+      name: `Theme By Teek`,
     },
     copyright: {
       createYear: 2025,
@@ -33,8 +32,8 @@ const teekConfig = defineTeekConfig({
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   extends: teekConfig,
-  title: "数智医嘱",
-  description: "数智医嘱开发文档",
+  title: "Lrucio",
+  description: "Lrucio的技术小屋🏡",
   cleanUrls: true,
   lastUpdated: true,
   lang: "zh-CN",
@@ -82,24 +81,13 @@ export default defineConfig({
     },
     nav: [
       { text: "首页", link: "/" },
-      { text: "指南", link: "/guide/intro", activeMatch: "/01.指南/" },
-      { text: "硬件端", link: "/reference/config", activeMatch: "/02.硬件端/" },
-      { text: "小程序", link: "/develop/intro", activeMatch: "/03.小程序/" },
-      { text: "后台", link: "/develop/intro", activeMatch: "/04.后台/" },
-      { text: "常见问题", link: "/theme/qa", activeMatch: "/20.常见问题/" },
-      {
-        text: "生态",
-        items: [
-          { text: "unibest(增强模板)", link: "https://www.unibest.tech/" },
-          { text: "wot-design-uni(组件)", link: "https://wot-design-uni.netlify.app/" },
-          { text: "uniapp(框架)", link: "https://uniapp.dcloud.net.cn/" },
-          { text: "iconfont(图标库)", link: "https://www.iconfont.cn/" },
-        ],
-      },
+      { text: "前端", link: "/frontend", activeMatch: "/01.前端/" },
+      { text: "python", link: "/python/", activeMatch: "/50.python篇/" },
     ],
-    editLink: {
-      text: "在 GitLab 上编辑此页",
-      pattern: "https://github.com/Kele-Bingtang/vitepress-theme-teek/edit/master/docs/:path",
+    socialLinks: [{ icon: "github", link: "https://github.com/Kele-Bingtang/vitepress-theme-teek" }],
+
+    search: {
+      provider: "local",
     },
   },
 })

@@ -23,7 +23,7 @@ export const teekBlogConfig: TeekConfig = {
     },
   },
   banner: {
-    name: "🎉 数智医嘱",
+    name: "🎉 Lrucio",
     bgStyle: "fullImg",
     imgSrc: ["/blog/banner-bg1.jpg", "/blog/banner-bg2.jpg", "/blog/banner-bg3.jpg"],
     description: [
@@ -36,7 +36,7 @@ export const teekBlogConfig: TeekConfig = {
   blogger: {
     avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar1.png",
     shape: "square",
-    name: "数智医嘱",
+    name: "Lrucio",
     slogan: "朝圣的使徒，正在走向至高殿堂！",
   },
   docAnalysis: {
